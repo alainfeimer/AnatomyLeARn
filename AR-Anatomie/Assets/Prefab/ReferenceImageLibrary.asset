@@ -26,16 +26,6 @@ MonoBehaviour:
     m_Name: heart
     m_Texture: {fileID: 2800000, guid: 592112ab6a6122a469007f496f679ede, type: 3}
   - m_SerializedGuid:
-      m_GuidLow: 5337124156418091209
-      m_GuidHigh: 12943906728073826235
-    m_SerializedTextureGuid:
-      m_GuidLow: 10611711543615296175
-      m_GuidHigh: 8269612393110440120
-    m_Size: {x: 0.1, y: 0.052486975}
-    m_SpecifySize: 1
-    m_Name: liver
-    m_Texture: {fileID: 2800000, guid: f81a12af5f6c9344b8088441a890c372, type: 3}
-  - m_SerializedGuid:
       m_GuidLow: 5504807722167052740
       m_GuidHigh: 1252833980169043391
     m_SerializedTextureGuid:
