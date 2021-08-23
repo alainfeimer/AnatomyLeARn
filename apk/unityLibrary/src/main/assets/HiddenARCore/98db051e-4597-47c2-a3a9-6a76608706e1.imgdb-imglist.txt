@@ -1,2 +1,2 @@
-e5f24cdb17c4428fb9923c0f7ad048c7|D:\Dokumente\02_LMU\Master\2021_SS\XR\pem-xr-medizin\AR-Anatomie\Assets\Textures\Marker_Herz.jpg|0.1
-249829c401754c65bfbd83feddf56211|D:\Dokumente\02_LMU\Master\2021_SS\XR\pem-xr-medizin\AR-Anatomie\Assets\Textures\Marker_Lunge.jpg|0.1
+e5f24cdb17c4428fb9923c0f7ad048c7|C:\Users\Bao Loi\Documents\4. Semester\pem-xr-medizin\AR-Anatomie\Assets\Textures\Marker_Herz.jpg|0.1
+249829c401754c65bfbd83feddf56211|C:\Users\Bao Loi\Documents\4. Semester\pem-xr-medizin\AR-Anatomie\Assets\Textures\Marker_Lunge.jpg|0.1
