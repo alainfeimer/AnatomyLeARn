@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: ReferenceImageLibrary
+  m_EditorClassIdentifier: 
+  m_GuidLow: 5170771839581619486
+  m_GuidHigh: 16214796356767361443
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 4796078262611758299
+      m_GuidHigh: 14359956634531041977
+    m_SerializedTextureGuid:
+      m_GuidLow: 2496237059809809067
+      m_GuidHigh: 16041372650412376169
+    m_Size: {x: 0.1, y: 0.12881467}
+    m_SpecifySize: 1
+    m_Name: heart
+    m_Texture: {fileID: 2800000, guid: 592112ab6a6122a469007f496f679ede, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5337124156418091209
+      m_GuidHigh: 12943906728073826235
+    m_SerializedTextureGuid:
+      m_GuidLow: 10611711543615296175
+      m_GuidHigh: 8269612393110440120
+    m_Size: {x: 0.1, y: 0.052486975}
+    m_SpecifySize: 1
+    m_Name: liver
+    m_Texture: {fileID: 2800000, guid: f81a12af5f6c9344b8088441a890c372, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5504807722167052740
+      m_GuidHigh: 1252833980169043391
+    m_SerializedTextureGuid:
+      m_GuidLow: 15227862467558888665
+      m_GuidHigh: 4011847439846454920
+    m_Size: {x: 0.1, y: 0.08269671}
+    m_SpecifySize: 1
+    m_Name: lung
+    m_Texture: {fileID: 2800000, guid: cb59d4d93c3bd35488b61ba9fdf1ac37, type: 3}
