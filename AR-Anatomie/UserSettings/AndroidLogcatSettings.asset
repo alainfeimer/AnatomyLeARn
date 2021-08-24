@@ -3,7 +3,7 @@
     "m_SelectedPackage": {
         "deviceId": "WCV0219423000483",
         "name": "com.DefaultCompany.ARAnatomie",
-        "processId": 20106,
+        "processId": 20777,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -66,6 +66,12 @@
             "deviceId": "WCV0219423000483",
             "name": "com.DefaultCompany.ARAnatomie",
             "processId": 20106,
+            "exited": false
+        },
+        {
+            "deviceId": "WCV0219423000483",
+            "name": "com.DefaultCompany.ARAnatomie",
+            "processId": 20777,
             "exited": false
         }
     ],
