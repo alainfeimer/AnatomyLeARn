@@ -1075,7 +1075,62 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &577033970
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 577033972}
+  - component: {fileID: 577033971}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &577033971
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 577033970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1365b0e8ba4d14026b6d34cc47d9b856, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  questions:
+  - fact: Das Herz ist ein Organ.
+    isTrue: 1
+  - fact: "Das Herz schl\xE4gt nachts nicht."
+    isTrue: 0
+  - fact: Das Herz pumpt Blut.
+    isTrue: 1
+  - fact: "Das Herz ist immer gleich gro\xDF."
+    isTrue: 0
+  - fact: "Venen f\xFChren zum Herzen hin."
+    isTrue: 1
+  factText: {fileID: 971364395}
+--- !u!4 &577033972
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 577033970}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &638022492
 GameObject:
@@ -1635,7 +1690,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &829220604
 GameObject:
@@ -1963,7 +2018,7 @@ GameObject:
   - component: {fileID: 971364395}
   - component: {fileID: 971364394}
   m_Layer: 5
-  m_Name: Frage
+  m_Name: Fact
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2036,9 +2091,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 3
-  m_Text: 'Das ist eine Frage
-
-'
+  m_Text: Fact
 --- !u!222 &971364396
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2506,7 +2559,7 @@ RectTransform:
   - {fileID: 1934206766}
   - {fileID: 2066169764}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -2626,7 +2679,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -800, y: 670}
+  m_AnchoredPosition: {x: -800, y: 815}
   m_SizeDelta: {x: 1600, y: 400}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1332946839
@@ -3133,10 +3186,10 @@ MonoBehaviour:
   sizePercentage: 75
   rippleSize: 0
   rippleSpeed: 6
-  rippleColor: {r: 0, g: 0.3764706, b: 0.39215687, a: 1}
+  rippleColor: {r: 1, g: 0.4392157, b: 0.2627451, a: 1}
   rippleStartAlpha: 0.5
   rippleEndAlpha: 0.3
-  highlightWhen: 2
+  highlightWhen: 1
   moveTowardCenter: 0
   toggleMask: 1
   dontRippleOnScroll: 0
@@ -3394,7 +3447,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 3}
+  m_AnchoredPosition: {x: 3, y: -1}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1934206767
@@ -3734,7 +3787,7 @@ MonoBehaviour:
   rippleColor: {r: 0, g: 0.3764706, b: 0.39215687, a: 1}
   rippleStartAlpha: 0.5
   rippleEndAlpha: 0.3
-  highlightWhen: 2
+  highlightWhen: 1
   moveTowardCenter: 0
   toggleMask: 1
   dontRippleOnScroll: 0
@@ -3898,7 +3951,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 2838, y: -820}
+  m_AnchoredPosition: {x: 3603, y: -411}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2066169765
@@ -4141,7 +4194,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2115106371
 GameObject:
