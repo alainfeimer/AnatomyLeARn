@@ -82,10 +82,29 @@ public class ImageTrackerManager : MonoBehaviour
         //if tracked image tracking state is comparable to tracking
         if (trackedImage.trackingState == TrackingState.Tracking)
         {
-            //set the image tracked ar object to active 
-            allObjects[trackedImage.referenceImage.name].SetActive(true);
-            allObjects[trackedImage.referenceImage.name].transform.position = trackedImage.transform.position;
-            allObjects[trackedImage.referenceImage.name].transform.rotation = trackedImage.transform.rotation;
+            if (trackedImage.referenceImage.name == "heart")
+            {
+                //set the image tracked ar object to active 
+                allObjects[trackedImage.referenceImage.name].SetActive(true);
+                allObjects[trackedImage.referenceImage.name].transform.position = trackedImage.transform.position;
+                allObjects[trackedImage.referenceImage.name].transform.rotation = trackedImage.transform.rotation;
+
+                doPulse(allObjects[trackedImage.referenceImage.name]);
+
+                //This code can be used to rotate the object
+                //allObjects[trackedImage.referenceImage.name].transform.Rotate(new Vector3(0f, 100f, 0f) * Time.deltaTime);
+            }
+            else
+            {
+                //set the image tracked ar object to active 
+                allObjects[trackedImage.referenceImage.name].SetActive(true);
+                allObjects[trackedImage.referenceImage.name].transform.position = trackedImage.transform.position;
+                allObjects[trackedImage.referenceImage.name].transform.rotation = trackedImage.transform.rotation;
+            }
+
+            //This code can be used to rotate the object
+            //allObjects[trackedImage.referenceImage.name].transform.Rotate(new Vector3(0f, 100f, 0f) * Time.deltaTime);
+
         }
         else //if tracked image tracking state is limited or none 
         {
@@ -117,5 +136,15 @@ public class ImageTrackerManager : MonoBehaviour
             Destroy(trackedImage.gameObject);
         }
     }
+
+    private void doPulse(GameObject heart)
+    {
+        System.Collections.Hashtable hash =
+                   new System.Collections.Hashtable();
+        hash.Add("amount", new Vector3(0.015f, 0.015f, 0f));
+        hash.Add("time", 1f);
+        iTween.PunchScale(heart, hash);
+    }
+
 
 }
