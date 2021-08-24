@@ -53,8 +53,63 @@
     <UnityVersion>2020.3.14f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Assets\MaterialUI\Scripts\SelectionBoxSubscriber.cs" />
+    <Compile Include="Assets\MaterialUI\Scripts\SnapButtonToText.cs" />
+    <Compile Include="Assets\MaterialUI\Scripts\MaterialUIScaler.cs" />
+    <Compile Include="Assets\Scripts\HeartPanelManager.cs" />
+    <Compile Include="Assets\MaterialUI\Scripts\TextInputLine.cs" />
+    <Compile Include="Assets\MaterialUI\Scripts\Toaster.cs" />
+    <Compile Include="Assets\MaterialUI\Scripts\RippleAnim.cs" />
+    <Compile Include="Assets\MaterialUI\Scripts\ScreenConfig.cs" />
+    <Compile Include="Assets\MaterialUI\Scripts\CheckboxFillerControl.cs" />
+    <Compile Include="Assets\Question.cs" />
+    <Compile Include="Assets\MaterialUI\Scripts\ScreenManager.cs" />
+    <Compile Include="Assets\MaterialUI\Scripts\SpriteSwapper.cs" />
+    <Compile Include="Assets\MaterialUI\Scripts\CheckboxConfig.cs" />
+    <Compile Include="Assets\MaterialUI\Scripts\RippleControl.cs" />
+    <Compile Include="Assets\MaterialUI\Scripts\Anim.cs" />
+    <Compile Include="Assets\MaterialUI\Scripts\MenuArrowAnim.cs" />
+    <Compile Include="Assets\MaterialUI\Examples\Scripts\05 - Sliders\Example05.cs" />
+    <Compile Include="Assets\MaterialUI\Scripts\ToastAnim.cs" />
+    <Compile Include="Assets\MaterialUI\Scripts\DialogBoxConfig.cs" />
+    <Compile Include="Assets\MaterialUI\Scripts\NavDrawerConfig.cs" />
+    <Compile Include="Assets\MaterialUI\Scripts\ShadowConfig.cs" />
+    <Compile Include="Assets\MaterialUI\Scripts\SwitchConfig.cs" />
     <Compile Include="Assets\Scripts\ChangeSceneWithButton.cs" />
+    <Compile Include="Assets\MaterialUI\Scripts\MaterialGlobals.cs" />
+    <Compile Include="Assets\MaterialUI\Scripts\RippleConfig.cs" />
+    <Compile Include="Assets\MaterialUI\Scripts\HSBColor.cs" />
+    <Compile Include="Assets\MaterialUI\Scripts\SelectionListItemConfig.cs" />
+    <Compile Include="Assets\MaterialUI\Scripts\InputFieldConfig.cs" />
+    <Compile Include="Assets\Scripts\Punktestand.cs" />
+    <Compile Include="Assets\MaterialUI\Scripts\FPSCounter.cs" />
+    <Compile Include="Assets\MaterialUI\Scripts\RectTransformSnap.cs" />
+    <Compile Include="Assets\MaterialUI\Scripts\ShadowAnim.cs" />
+    <Compile Include="Assets\MaterialUI\Scripts\ToggleTextChanger.cs" />
+    <Compile Include="Assets\MaterialUI\Scripts\ColorCopier.cs" />
+    <Compile Include="Assets\MaterialUI\Scripts\EZAnim.cs" />
+    <Compile Include="Assets\Punktestand.cs" />
+    <Compile Include="Assets\MaterialUI\Scripts\SelectionBoxConfig.cs" />
+    <Compile Include="Assets\GameManager.cs" />
+    <Compile Include="Assets\MaterialUI\Scripts\CheckBoxToggler.cs" />
+    <Compile Include="Assets\MaterialUI\Scripts\ShadowGen.cs" />
+    <Compile Include="Assets\Scripts\PanelOpener.cs" />
+    <Compile Include="Assets\MaterialUI\Scripts\ButtonInteractableControl.cs" />
+    <Compile Include="Assets\MaterialUI\Scripts\ToggleConfig.cs" />
     <Compile Include="Assets\Scripts\ImageTrackerManager.cs" />
+    <Compile Include="Assets\MaterialUI\Scripts\RadioConfig.cs" />
+    <Compile Include="Assets\MaterialUI\Examples\Scripts\04 - RadioButton\Example04.cs" />
+    <Compile Include="Assets\Scripts\Quiz.cs" />
+    <Compile Include="Assets\MaterialUI\Scripts\SliderConfig.cs" />
+    <Compile Include="Assets\PunktestandScript.cs" />
+    <Compile Include="Assets\MaterialUI\Scripts\ToastControl.cs" />
+    <Compile Include="Assets\MaterialUI\Scripts\MaterialUIVersion.cs" />
+    <Compile Include="Assets\MaterialUI\Scripts\ShadowSnap.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Fonts\Rajdhani\OFL.txt" />
+    <None Include="Assets\MaterialUI\Fonts\NOTICE.txt" />
+    <None Include="Assets\StreamingAssets\HiddenARCore\98db051e-4597-47c2-a3a9-6a76608706e1.imgdb-imglist.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -266,6 +321,9 @@
     </Reference>
     <Reference Include="Unity.Rider.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Mobile.AndroidLogcat.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Mobile.AndroidLogcat.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
@@ -632,6 +690,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{41E21B76-7073-A358-F9D0-63624A289D8B}</Project>
+      <Name>Assembly-CSharp-firstpass</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.Timeline.csproj">
       <Project>{33544D4B-4703-EE2D-57D8-717E48499332}</Project>
       <Name>Unity.Timeline</Name>
@@ -660,13 +722,13 @@
       <Project>{39A24650-E253-CAE9-81AF-61B3C40A73A2}</Project>
       <Name>Unity.XR.Management</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.XR.ARCore.csproj">
-      <Project>{4A8DFC7C-C7F3-B6AB-7187-677636300CEE}</Project>
-      <Name>Unity.XR.ARCore</Name>
-    </ProjectReference>
     <ProjectReference Include="Unity.XR.ARSubsystems.csproj">
       <Project>{EE169B17-7F66-099B-0B21-03490C5EDB69}</Project>
       <Name>Unity.XR.ARSubsystems</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.ARCore.csproj">
+      <Project>{4A8DFC7C-C7F3-B6AB-7187-677636300CEE}</Project>
+      <Name>Unity.XR.ARCore</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.ARFoundation.csproj">
       <Project>{D7DE9250-EA4A-B451-9B5A-7C5EBEAF7918}</Project>
