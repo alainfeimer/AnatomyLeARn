@@ -19,19 +19,29 @@ MonoBehaviour:
       m_GuidLow: 4796078262611758299
       m_GuidHigh: 14359956634531041977
     m_SerializedTextureGuid:
-      m_GuidLow: 2496237059809809067
-      m_GuidHigh: 16041372650412376169
-    m_Size: {x: 0.1, y: 0.12881467}
-    m_SpecifySize: 1
-    m_Name: heart
-    m_Texture: {fileID: 2800000, guid: 592112ab6a6122a469007f496f679ede, type: 3}
-  - m_SerializedGuid:
-      m_GuidLow: 5504807722167052740
-      m_GuidHigh: 1252833980169043391
-    m_SerializedTextureGuid:
-      m_GuidLow: 15227862467558888665
-      m_GuidHigh: 4011847439846454920
-    m_Size: {x: 0.1, y: 0.08269671}
+      m_GuidLow: 17776943916469207248
+      m_GuidHigh: 16955735797710034603
+    m_Size: {x: 0.1, y: 0.10611111}
     m_SpecifySize: 1
     m_Name: lung
-    m_Texture: {fileID: 2800000, guid: cb59d4d93c3bd35488b61ba9fdf1ac37, type: 3}
+    m_Texture: {fileID: 2800000, guid: 453040d0644ef6b4ab96e167dfdf4eeb, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5558851337702869657
+      m_GuidHigh: 6033037268904359077
+    m_SerializedTextureGuid:
+      m_GuidLow: 9508247060916170050
+      m_GuidHigh: 3226276979086426811
+    m_Size: {x: 0.1, y: 0.1}
+    m_SpecifySize: 1
+    m_Name: heart
+    m_Texture: {fileID: 2800000, guid: 368f6d42145383f4bb8277a5d109c62c, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 4709057304124898547
+      m_GuidHigh: 16627061626943170737
+    m_SerializedTextureGuid:
+      m_GuidLow: 13336337576519922381
+      m_GuidHigh: 1173199246707730953
+    m_Size: {x: 0.2, y: 0.14944237}
+    m_SpecifySize: 1
+    m_Name: liver
+    m_Texture: {fileID: 2800000, guid: ed29f2cd305db914092ac5be7f0a4810, type: 3}

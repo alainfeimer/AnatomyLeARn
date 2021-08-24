@@ -500,5 +500,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ObjectsToPlace:
-  - {fileID: 7197268305411607436, guid: b010991fd1e736c4ea4e426f2fa22c1b, type: 3}
-  - {fileID: 7881438649652524645, guid: 09b55b01fdcdeae49a0a2e1df9d17164, type: 3}
+  - {fileID: 2961949763302266343, guid: 09b55b01fdcdeae49a0a2e1df9d17164, type: 3}
+  - {fileID: 5412101463551927578, guid: c89a7d048d0c8ed4c97ddfa353c05a39, type: 3}
+  - {fileID: 2190923076809216396, guid: 33b2c5203a6f1e640b8bb43738b2b061, type: 3}

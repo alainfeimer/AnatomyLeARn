@@ -145,7 +145,7 @@
 81-->[:unityLibrary] D:\Dokumente\02_LMU\Master\2021_SS\XR\pem-xr-medizin\apk\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:67:9-69:68
 82            android:name="unity.build-id"
 82-->[:unityLibrary] D:\Dokumente\02_LMU\Master\2021_SS\XR\pem-xr-medizin\apk\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:68:13-42
-83            android:value="a8d7059c-d567-4628-b802-58ecee16406b" />
+83            android:value="3c12f26c-d1ee-4d3f-941b-5d7cef9f0f24" />
 83-->[:unityLibrary] D:\Dokumente\02_LMU\Master\2021_SS\XR\pem-xr-medizin\apk\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:69:13-65
 84        <meta-data
 84-->[:unityLibrary] D:\Dokumente\02_LMU\Master\2021_SS\XR\pem-xr-medizin\apk\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:70:9-72:36
