@@ -53,6 +53,7 @@
     <UnityVersion>2020.3.14f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\RotateController.cs" />
     <Compile Include="Assets\Scripts\ChangeSceneWithButton.cs" />
     <Compile Include="Assets\Scripts\ImageTrackerManager.cs" />
   </ItemGroup>
@@ -632,6 +633,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{41E21B76-7073-A358-F9D0-63624A289D8B}</Project>
+      <Name>Assembly-CSharp-firstpass</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.Timeline.csproj">
       <Project>{33544D4B-4703-EE2D-57D8-717E48499332}</Project>
       <Name>Unity.Timeline</Name>

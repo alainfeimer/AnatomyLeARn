@@ -5,10 +5,12 @@ using UnityEngine.UI;
 using UnityEngine.XR.ARFoundation;
 using UnityEngine.XR.ARSubsystems;
 using UnityEngine.SceneManagement;
+using System.Collections;
 
 [RequireComponent(typeof(ARTrackedImageManager))]
 public class ImageTrackerManager : MonoBehaviour
 {
+
     [Header("The length of this list must match the number of images in Reference Image Library")]
     [SerializeField]
     private List<GameObject> ObjectsToPlace;
@@ -19,6 +21,17 @@ public class ImageTrackerManager : MonoBehaviour
     //create the “trackable” manager to detect 2D images
     private ARTrackedImageManager arTrackedImageManager;
     private IReferenceImageLibrary refLibrary;
+
+    // Grow parameters
+    public float approachSpeed = 0.02f;
+    public float growthBound = 2f;
+    public float shrinkBound = 0.5f;
+    private float currentRatio = 1;
+
+    // And something to do the manipulating
+    private Coroutine routine;
+    private bool keepGoing = true;
+    private bool closeEnough = false;
 
     void Awake()
     {
@@ -75,6 +88,8 @@ public class ImageTrackerManager : MonoBehaviour
         allObjects[imageName].SetActive(true);
         // Give the initial image a reasonable default scale
         allObjects[imageName].transform.localScale = new Vector3(0.01f, 0.01f, 0.01f);
+        //pulse(allObjects[imageName]);
+
     }
 
     private void UpdateTrackedObject(ARTrackedImage trackedImage)
@@ -82,10 +97,30 @@ public class ImageTrackerManager : MonoBehaviour
         //if tracked image tracking state is comparable to tracking
         if (trackedImage.trackingState == TrackingState.Tracking)
         {
-            //set the image tracked ar object to active 
-            allObjects[trackedImage.referenceImage.name].SetActive(true);
-            allObjects[trackedImage.referenceImage.name].transform.position = trackedImage.transform.position;
-            allObjects[trackedImage.referenceImage.name].transform.rotation = trackedImage.transform.rotation;
+            
+            if(trackedImage.referenceImage.name == "heart")
+            {
+                //set the image tracked ar object to active 
+                allObjects[trackedImage.referenceImage.name].SetActive(true);
+                allObjects[trackedImage.referenceImage.name].transform.position = trackedImage.transform.position;
+                allObjects[trackedImage.referenceImage.name].transform.rotation = trackedImage.transform.rotation;
+
+                doPulse(allObjects[trackedImage.referenceImage.name]);
+
+                //This code can be used to rotate the object
+                //allObjects[trackedImage.referenceImage.name].transform.Rotate(new Vector3(0f, 100f, 0f) * Time.deltaTime);
+            } else
+            {
+                //set the image tracked ar object to active 
+                allObjects[trackedImage.referenceImage.name].SetActive(true);
+                allObjects[trackedImage.referenceImage.name].transform.position = trackedImage.transform.position;
+                allObjects[trackedImage.referenceImage.name].transform.rotation = trackedImage.transform.rotation;
+            }
+
+                //This code can be used to rotate the object
+                //allObjects[trackedImage.referenceImage.name].transform.Rotate(new Vector3(0f, 100f, 0f) * Time.deltaTime);
+                
+            
         }
         else //if tracked image tracking state is limited or none 
         {
@@ -99,7 +134,9 @@ public class ImageTrackerManager : MonoBehaviour
         // for each tracked image that has been added
         foreach (var addedImage in args.added)
         {
-            ActivateTrackedObject(addedImage.referenceImage.name);
+           
+             ActivateTrackedObject(addedImage.referenceImage.name);
+            
 
         }
 
@@ -118,4 +155,13 @@ public class ImageTrackerManager : MonoBehaviour
         }
     }
 
+    private void doPulse(GameObject heart)
+    {
+        System.Collections.Hashtable hash =
+                   new System.Collections.Hashtable();
+        hash.Add("amount", new Vector3(0.015f, 0.015f, 0f));
+        hash.Add("time", 1f);
+        iTween.PunchScale(heart, hash);
+    }
 }
+
