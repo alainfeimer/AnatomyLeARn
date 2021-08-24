@@ -1,0 +1,129 @@
+{
+    "m_SelectedDeviceId": "WCV0219423000483",
+    "m_SelectedPackage": {
+        "deviceId": "WCV0219423000483",
+        "name": "com.DefaultCompany.ARAnatomie",
+        "processId": 20106,
+        "exited": false
+    },
+    "m_SelectedPriority": 0,
+    "m_KnownPackagesForSerialization": [
+        {
+            "deviceId": "WCV0219423000483",
+            "name": "com.DefaultCompany.ARAnatomie",
+            "processId": 10802,
+            "exited": false
+        },
+        {
+            "deviceId": "WCV0219423000483",
+            "name": "com.DefaultCompany.ARAnatomie",
+            "processId": 13519,
+            "exited": false
+        },
+        {
+            "deviceId": "WCV0219423000483",
+            "name": "com.DefaultCompany.ARAnatomie",
+            "processId": 15139,
+            "exited": false
+        },
+        {
+            "deviceId": "WCV0219423000483",
+            "name": "com.DefaultCompany.ARAnatomie",
+            "processId": 16140,
+            "exited": false
+        },
+        {
+            "deviceId": "WCV0219423000483",
+            "name": "com.DefaultCompany.ARAnatomie",
+            "processId": 16937,
+            "exited": false
+        },
+        {
+            "deviceId": "WCV0219423000483",
+            "name": "com.DefaultCompany.ARAnatomie",
+            "processId": 17605,
+            "exited": false
+        },
+        {
+            "deviceId": "WCV0219423000483",
+            "name": "com.DefaultCompany.ARAnatomie",
+            "processId": 18093,
+            "exited": false
+        },
+        {
+            "deviceId": "WCV0219423000483",
+            "name": "com.DefaultCompany.ARAnatomie",
+            "processId": 18622,
+            "exited": false
+        },
+        {
+            "deviceId": "WCV0219423000483",
+            "name": "com.DefaultCompany.ARAnatomie",
+            "processId": 19233,
+            "exited": false
+        },
+        {
+            "deviceId": "WCV0219423000483",
+            "name": "com.DefaultCompany.ARAnatomie",
+            "processId": 20106,
+            "exited": false
+        }
+    ],
+    "m_Tags": {
+        "m_Entries": [
+            {
+                "m_Name": "Filter by all listed tags",
+                "m_Selected": false
+            },
+            {
+                "m_Name": "No Filter",
+                "m_Selected": false
+            },
+            {
+                "m_Name": "",
+                "m_Selected": false
+            },
+            {
+                "m_Name": "Tag Control...",
+                "m_Selected": false
+            },
+            {
+                "m_Name": "",
+                "m_Selected": false
+            },
+            {
+                "m_Name": "Unity",
+                "m_Selected": false
+            },
+            {
+                "m_Name": "CRASH",
+                "m_Selected": false
+            },
+            {
+                "m_Name": " ",
+                "m_Selected": true
+            }
+        ]
+    },
+    "m_MemoryViewerState": {
+        "MemoryWindowHeight": 300.0,
+        "MemoryWindowWidth": 170.0,
+        "MemoryTypeEnabled": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+        ],
+        "MemoryGroup": 2,
+        "Behavior": 0
+    },
+    "m_Filter": "",
+    "m_FilterIsRegularExpression": false,
+    "m_SymbolPaths": []
+}
