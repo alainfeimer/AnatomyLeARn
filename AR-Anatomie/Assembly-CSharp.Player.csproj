@@ -53,7 +53,9 @@
     <UnityVersion>2020.3.14f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\DetectTouch.cs" />
     <Compile Include="Assets\Scripts\ChangeSceneWithButton.cs" />
+    <Compile Include="Assets\Scripts\PanelManager.cs" />
     <Compile Include="Assets\Scripts\ImageTrackerManager.cs" />
   </ItemGroup>
   <ItemGroup>
