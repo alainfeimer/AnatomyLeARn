@@ -1,9 +1,9 @@
 {
-    "m_SelectedDeviceId": "WCV0219423000483",
+    "m_SelectedDeviceId": "8BBY0WW0Y",
     "m_SelectedPackage": {
-        "deviceId": "WCV0219423000483",
-        "name": "com.DefaultCompany.ARAnatomie",
-        "processId": 20777,
+        "deviceId": "8BBY0WW0Y",
+        "name": "com.pemxrmedizin.ARAnatomie",
+        "processId": 31276,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -72,6 +72,18 @@
             "deviceId": "WCV0219423000483",
             "name": "com.DefaultCompany.ARAnatomie",
             "processId": 20777,
+            "exited": false
+        },
+        {
+            "deviceId": "8BBY0WW0Y",
+            "name": "com.pemxrmedizin.ARAnatomie",
+            "processId": 30626,
+            "exited": false
+        },
+        {
+            "deviceId": "8BBY0WW0Y",
+            "name": "com.pemxrmedizin.ARAnatomie",
+            "processId": 31276,
             "exited": false
         }
     ],
