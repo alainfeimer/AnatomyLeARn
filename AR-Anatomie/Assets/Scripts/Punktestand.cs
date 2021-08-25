@@ -15,6 +15,5 @@ public class PunktestandAnzeige : MonoBehaviour {
         if(Input.GetKeyDown(KeyCode.Space)){
             punkte--;
         }
-        
     }
 }

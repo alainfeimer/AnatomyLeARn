@@ -1,0 +1,3 @@
+e5f24cdb17c4428fb9923c0f7ad048c7|/Users/marionbotsivali/pem-xr-medizin/AR-Anatomie/Assets/Textures/lung.jpg|0.1
+eefc0a9901d64d25a5b4bc816ea7b953|/Users/marionbotsivali/pem-xr-medizin/AR-Anatomie/Assets/Textures/heart.jpg|0.1
+1f52bcf3eeab4159b1e879ac7430bfe6|/Users/marionbotsivali/pem-xr-medizin/AR-Anatomie/Assets/Textures/liver.jpg|0.2
