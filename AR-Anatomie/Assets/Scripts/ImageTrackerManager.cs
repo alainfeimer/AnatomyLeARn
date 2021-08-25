@@ -92,7 +92,6 @@ public class ImageTrackerManager : MonoBehaviour
                 //set the image tracked ar object to active 
                 allObjects[trackedImage.referenceImage.name].SetActive(true);
                 allObjects[trackedImage.referenceImage.name].transform.position = trackedImage.transform.position;
-                allObjects[trackedImage.referenceImage.name].transform.rotation = trackedImage.transform.rotation;
 
                 doPulse(allObjects[trackedImage.referenceImage.name]);
 
@@ -110,7 +109,6 @@ public class ImageTrackerManager : MonoBehaviour
                 //set the image tracked ar object to active 
                 allObjects[trackedImage.referenceImage.name].SetActive(true);
                 allObjects[trackedImage.referenceImage.name].transform.position = trackedImage.transform.position;
-                allObjects[trackedImage.referenceImage.name].transform.rotation = trackedImage.transform.rotation;
 
                 if (buttonIsClicked)
                 {
