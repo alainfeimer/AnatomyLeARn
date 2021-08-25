@@ -62,7 +62,7 @@
     <Compile Include="Assets\MaterialUI\Scripts\RippleAnim.cs" />
     <Compile Include="Assets\MaterialUI\Scripts\ScreenConfig.cs" />
     <Compile Include="Assets\MaterialUI\Scripts\CheckboxFillerControl.cs" />
-    <Compile Include="Assets\Question.cs" />
+    <Compile Include="Assets\Scripts\Question.cs" />
     <Compile Include="Assets\MaterialUI\Scripts\ScreenManager.cs" />
     <Compile Include="Assets\MaterialUI\Scripts\SpriteSwapper.cs" />
     <Compile Include="Assets\MaterialUI\Scripts\CheckboxConfig.cs" />
@@ -90,7 +90,7 @@
     <Compile Include="Assets\MaterialUI\Scripts\EZAnim.cs" />
     <Compile Include="Assets\Punktestand.cs" />
     <Compile Include="Assets\MaterialUI\Scripts\SelectionBoxConfig.cs" />
-    <Compile Include="Assets\GameManager.cs" />
+    <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\MaterialUI\Scripts\CheckBoxToggler.cs" />
     <Compile Include="Assets\MaterialUI\Scripts\ShadowGen.cs" />
     <Compile Include="Assets\Scripts\PanelOpener.cs" />
@@ -101,15 +101,14 @@
     <Compile Include="Assets\MaterialUI\Examples\Scripts\04 - RadioButton\Example04.cs" />
     <Compile Include="Assets\Scripts\Quiz.cs" />
     <Compile Include="Assets\MaterialUI\Scripts\SliderConfig.cs" />
-    <Compile Include="Assets\PunktestandScript.cs" />
     <Compile Include="Assets\MaterialUI\Scripts\ToastControl.cs" />
     <Compile Include="Assets\MaterialUI\Scripts\MaterialUIVersion.cs" />
     <Compile Include="Assets\MaterialUI\Scripts\ShadowSnap.cs" />
+    <Compile Include="Assets\Scripts\RotationButtonHandler.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Fonts\Rajdhani\OFL.txt" />
     <None Include="Assets\MaterialUI\Fonts\NOTICE.txt" />
-    <None Include="Assets\StreamingAssets\HiddenARCore\98db051e-4597-47c2-a3a9-6a76608706e1.imgdb-imglist.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
