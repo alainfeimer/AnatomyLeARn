@@ -1,9 +1,9 @@
 {
-    "m_SelectedDeviceId": "WCV0219423000483",
+    "m_SelectedDeviceId": "520073f24a965501",
     "m_SelectedPackage": {
-        "deviceId": "WCV0219423000483",
+        "deviceId": "520073f24a965501",
         "name": "com.DefaultCompany.ARAnatomie",
-        "processId": 20777,
+        "processId": 16336,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -72,6 +72,90 @@
             "deviceId": "WCV0219423000483",
             "name": "com.DefaultCompany.ARAnatomie",
             "processId": 20777,
+            "exited": false
+        },
+        {
+            "deviceId": "520073f24a965501",
+            "name": "com.DefaultCompany.ARAnatomie",
+            "processId": 24153,
+            "exited": true
+        },
+        {
+            "deviceId": "520073f24a965501",
+            "name": "com.DefaultCompany.ARAnatomie",
+            "processId": 25297,
+            "exited": true
+        },
+        {
+            "deviceId": "520073f24a965501",
+            "name": "com.DefaultCompany.ARAnatomie",
+            "processId": 27390,
+            "exited": true
+        },
+        {
+            "deviceId": "520073f24a965501",
+            "name": "com.DefaultCompany.ARAnatomie",
+            "processId": 28053,
+            "exited": true
+        },
+        {
+            "deviceId": "520073f24a965501",
+            "name": "com.DefaultCompany.ARAnatomie",
+            "processId": 1396,
+            "exited": true
+        },
+        {
+            "deviceId": "520073f24a965501",
+            "name": "com.DefaultCompany.ARAnatomie",
+            "processId": 2334,
+            "exited": false
+        },
+        {
+            "deviceId": "520073f24a965501",
+            "name": "com.DefaultCompany.ARAnatomie",
+            "processId": 3630,
+            "exited": false
+        },
+        {
+            "deviceId": "520073f24a965501",
+            "name": "com.DefaultCompany.ARAnatomie",
+            "processId": 4852,
+            "exited": false
+        },
+        {
+            "deviceId": "520073f24a965501",
+            "name": "com.DefaultCompany.ARAnatomie",
+            "processId": 5850,
+            "exited": false
+        },
+        {
+            "deviceId": "520073f24a965501",
+            "name": "com.DefaultCompany.ARAnatomie",
+            "processId": 6931,
+            "exited": false
+        },
+        {
+            "deviceId": "520073f24a965501",
+            "name": "com.DefaultCompany.ARAnatomie",
+            "processId": 7868,
+            "exited": false
+        },
+        {
+            "deviceId": "520073f24a965501",
+            "name": "com.DefaultCompany.ARAnatomie",
+            "processId": 8577,
+            "exited": false
+        },
+        {
+            "deviceId": "520073f24a965501",
+            "name": "com.DefaultCompany.ARAnatomie",
+            "processId": 15657,
+            "exited": false
+        },
+        {
+            "deviceId": "520073f24a965501",
+            "name": "com.DefaultCompany.ARAnatomie",
+            "processId": 16336,
             "exited": false
         }
     ],
