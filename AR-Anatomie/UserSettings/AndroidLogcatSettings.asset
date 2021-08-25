@@ -3,7 +3,7 @@
     "m_SelectedPackage": {
         "deviceId": "520073f24a965501",
         "name": "com.pemxrmedizin.ARAnatomie",
-        "processId": 26714,
+        "processId": 5645,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -78,12 +78,72 @@
             "deviceId": "520073f24a965501",
             "name": "com.pemxrmedizin.ARAnatomie",
             "processId": 26229,
-            "exited": false
+            "exited": true
         },
         {
             "deviceId": "520073f24a965501",
             "name": "com.pemxrmedizin.ARAnatomie",
             "processId": 26714,
+            "exited": true
+        },
+        {
+            "deviceId": "520073f24a965501",
+            "name": "com.pemxrmedizin.ARAnatomie",
+            "processId": 28833,
+            "exited": true
+        },
+        {
+            "deviceId": "520073f24a965501",
+            "name": "com.pemxrmedizin.ARAnatomie",
+            "processId": 29810,
+            "exited": false
+        },
+        {
+            "deviceId": "520073f24a965501",
+            "name": "com.pemxrmedizin.ARAnatomie",
+            "processId": 32137,
+            "exited": false
+        },
+        {
+            "deviceId": "520073f24a965501",
+            "name": "com.pemxrmedizin.ARAnatomie",
+            "processId": 32693,
+            "exited": false
+        },
+        {
+            "deviceId": "520073f24a965501",
+            "name": "com.pemxrmedizin.ARAnatomie",
+            "processId": 563,
+            "exited": false
+        },
+        {
+            "deviceId": "520073f24a965501",
+            "name": "com.pemxrmedizin.ARAnatomie",
+            "processId": 984,
+            "exited": false
+        },
+        {
+            "deviceId": "520073f24a965501",
+            "name": "com.pemxrmedizin.ARAnatomie",
+            "processId": 1217,
+            "exited": false
+        },
+        {
+            "deviceId": "520073f24a965501",
+            "name": "com.pemxrmedizin.ARAnatomie",
+            "processId": 2380,
+            "exited": false
+        },
+        {
+            "deviceId": "520073f24a965501",
+            "name": "com.pemxrmedizin.ARAnatomie",
+            "processId": 4244,
+            "exited": false
+        },
+        {
+            "deviceId": "520073f24a965501",
+            "name": "com.pemxrmedizin.ARAnatomie",
+            "processId": 5645,
             "exited": false
         }
     ],

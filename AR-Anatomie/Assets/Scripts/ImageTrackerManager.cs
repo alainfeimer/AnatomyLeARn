@@ -16,7 +16,7 @@ public class ImageTrackerManager : MonoBehaviour
     private int refImageCount;
     private Dictionary<string, GameObject> allObjects;
 
-    //create the “trackable” manager to detect 2D images
+    //create the trackable manager to detect 2D images
     private ARTrackedImageManager arTrackedImageManager;
     private IReferenceImageLibrary refLibrary;
 
@@ -33,7 +33,7 @@ public class ImageTrackerManager : MonoBehaviour
 
     //when the tracked image manager is enabled add binding to the tracked 
     //image changed event handler by calling a method to iterate through 
-    //image reference’s changes 
+    //image references changes 
     private void OnEnable()
     {
         arTrackedImageManager.trackedImagesChanged += OnImageChanged;
@@ -41,7 +41,7 @@ public class ImageTrackerManager : MonoBehaviour
 
     //when the tracked image manager is disabled remove binding to the 
     //tracked image changed event handler by calling a method to iterate 
-    //through image reference’s changes
+    //through image references changes
     private void OnDisable()
     {
         arTrackedImageManager.trackedImagesChanged -= OnImageChanged;
@@ -92,7 +92,7 @@ public class ImageTrackerManager : MonoBehaviour
                 //set the image tracked ar object to active 
                 allObjects[trackedImage.referenceImage.name].SetActive(true);
                 allObjects[trackedImage.referenceImage.name].transform.position = trackedImage.transform.position;
-                allObjects[trackedImage.referenceImage.name].transform.rotation = trackedImage.transform.rotation;
+                //allObjects[trackedImage.referenceImage.name].transform.rotation = trackedImage.transform.rotation;
 
                 doPulse(allObjects[trackedImage.referenceImage.name]);
 
@@ -102,7 +102,7 @@ public class ImageTrackerManager : MonoBehaviour
                 {
                     allObjects[trackedImage.referenceImage.name].transform.Rotate(new Vector3(0f, 100f, 0f) * Time.deltaTime);
                 }
-                
+
 
             }
             else
@@ -110,7 +110,7 @@ public class ImageTrackerManager : MonoBehaviour
                 //set the image tracked ar object to active 
                 allObjects[trackedImage.referenceImage.name].SetActive(true);
                 allObjects[trackedImage.referenceImage.name].transform.position = trackedImage.transform.position;
-                allObjects[trackedImage.referenceImage.name].transform.rotation = trackedImage.transform.rotation;
+                //allObjects[trackedImage.referenceImage.name].transform.rotation = trackedImage.transform.rotation;
 
                 if (buttonIsClicked)
                 {
