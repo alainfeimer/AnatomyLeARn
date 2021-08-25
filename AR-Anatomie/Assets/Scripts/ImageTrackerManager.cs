@@ -20,6 +20,10 @@ public class ImageTrackerManager : MonoBehaviour
     private ARTrackedImageManager arTrackedImageManager;
     private IReferenceImageLibrary refLibrary;
 
+    private Button rotationButton;
+    private static bool buttonIsClicked;
+
+
     void Awake()
     {
         //initialized tracked image manager  
@@ -48,6 +52,7 @@ public class ImageTrackerManager : MonoBehaviour
         refLibrary = arTrackedImageManager.referenceLibrary;
         refImageCount = refLibrary.count;
         LoadObjectDictionary();
+        rotationButton = GameObject.Find("RotationButton").GetComponent<Button>();
     }
 
     void LoadObjectDictionary()
@@ -93,6 +98,12 @@ public class ImageTrackerManager : MonoBehaviour
 
                 //This code can be used to rotate the object
                 //allObjects[trackedImage.referenceImage.name].transform.Rotate(new Vector3(0f, 100f, 0f) * Time.deltaTime);
+                if (buttonIsClicked)
+                {
+                    allObjects[trackedImage.referenceImage.name].transform.Rotate(new Vector3(0f, 100f, 0f) * Time.deltaTime);
+                }
+                
+
             }
             else
             {
@@ -100,6 +111,11 @@ public class ImageTrackerManager : MonoBehaviour
                 allObjects[trackedImage.referenceImage.name].SetActive(true);
                 allObjects[trackedImage.referenceImage.name].transform.position = trackedImage.transform.position;
                 allObjects[trackedImage.referenceImage.name].transform.rotation = trackedImage.transform.rotation;
+
+                if (buttonIsClicked)
+                {
+                    allObjects[trackedImage.referenceImage.name].transform.Rotate(new Vector3(0f, 100f, 0f) * Time.deltaTime);
+                }
             }
 
             //This code can be used to rotate the object
@@ -145,6 +161,20 @@ public class ImageTrackerManager : MonoBehaviour
         hash.Add("time", 1f);
         iTween.PunchScale(heart, hash);
     }
+
+    public static void rotateObject(bool isPressed)
+    {
+        if (isPressed)
+        {
+            buttonIsClicked = true;
+        }
+
+        else
+        {
+            buttonIsClicked = false;
+        }
+    }
+
 
 
 }
