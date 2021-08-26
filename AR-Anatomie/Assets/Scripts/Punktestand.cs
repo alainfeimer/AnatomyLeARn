@@ -3,17 +3,28 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI; 
 
-public class PunktestandAnzeige : MonoBehaviour {
+public class Punktestand : MonoBehaviour 
+{
+    public static Punktestand instance; 
+
+    public Text punkteText;
     
-    private int punkte = 20;
-    public Text punkteText; 
+    public int punkte = 0;  
     
-    void Update(){
-        
-        punkteText.text = "Punktestand:" + punkte;
-        
-        if(Input.GetKeyDown(KeyCode.Space)){
-            punkte--;
-        }
+    private void Awake()
+    {
+        instance = this; 
+    }
+    
+    void Start()
+    {
+        punkteText.text = "Dein Punktestand: " + punkte.ToString(); 
+    }
+    
+    public void AddPoint()
+    {
+        punkte += 10;
+        punkteText.text = "Dein Punktestand: " + punkte.ToString();
+    
     }
 }
