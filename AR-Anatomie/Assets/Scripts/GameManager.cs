@@ -25,7 +25,7 @@ public class GameManager : MonoBehaviour
     private Animator animator;
     
     [SerializeField]
-    private float timeBetweenQuestions = 1f; 
+    private float timeBetweenQuestions = 3f; 
     
     void Start ()
     {

@@ -10,11 +10,11 @@ public class ShowFactsLung : MonoBehaviour
 
     void Start()
     {
-        facts.Add("Hier steht der erste Lungen Fakt");
-        facts.Add("Hier steht der zweite Lungen Fakt");
-        facts.Add("Hier steht der dritte Lungen Fakt");
-        facts.Add("Hier steht der vierte Lungen Fakt");
-        facts.Add("Hier steht der fünfte Lungen Fakt");
+        facts.Add("Die Lunge besteht aus zwei Lungenflügeln. Sie wiegt ca. 1.3 Kilogramm");
+        facts.Add("Pro Tag atmet man ca. 20.000 Mal ein und aus");
+        facts.Add("In der Lunge befinden sich ca. 400 Millionen Lungenbläschen");
+        facts.Add("Beim Einatmen vergrößert sich das Volumen der Lunge");
+        facts.Add("Raucher benötigen die doppelte Menge an Sauerstoff wie Nichtraucher");
 
         count = 0;
         GameObject.Find("LungFacts").GetComponentInChildren<Text>().text = facts[count].ToString();
