@@ -53,6 +53,7 @@ public class ImageTrackerManager : MonoBehaviour
         refImageCount = refLibrary.count;
         LoadObjectDictionary();
         rotationButton = GameObject.Find("RotationButton").GetComponent<Button>();
+        rotationButton.gameObject.SetActive(false);
     }
 
     void LoadObjectDictionary()
@@ -80,6 +81,7 @@ public class ImageTrackerManager : MonoBehaviour
         allObjects[imageName].SetActive(true);
         // Give the initial image a reasonable default scale
         allObjects[imageName].transform.localScale = new Vector3(0.01f, 0.01f, 0.01f);
+
     }
 
     private void UpdateTrackedObject(ARTrackedImage trackedImage)
@@ -94,9 +96,8 @@ public class ImageTrackerManager : MonoBehaviour
                 allObjects[trackedImage.referenceImage.name].transform.position = trackedImage.transform.position;
 
                 doPulse(allObjects[trackedImage.referenceImage.name]);
+                rotationButton.gameObject.SetActive(true);
 
-                //This code can be used to rotate the object
-                //allObjects[trackedImage.referenceImage.name].transform.Rotate(new Vector3(0f, 100f, 0f) * Time.deltaTime);
                 if (buttonIsClicked)
                 {
                     allObjects[trackedImage.referenceImage.name].transform.Rotate(new Vector3(0f, 100f, 0f) * Time.deltaTime);
@@ -110,20 +111,20 @@ public class ImageTrackerManager : MonoBehaviour
                 allObjects[trackedImage.referenceImage.name].SetActive(true);
                 allObjects[trackedImage.referenceImage.name].transform.position = trackedImage.transform.position;
 
+                rotationButton.gameObject.SetActive(true);
+
                 if (buttonIsClicked)
                 {
                     allObjects[trackedImage.referenceImage.name].transform.Rotate(new Vector3(0f, 100f, 0f) * Time.deltaTime);
                 }
             }
 
-            //This code can be used to rotate the object
-            //allObjects[trackedImage.referenceImage.name].transform.Rotate(new Vector3(0f, 100f, 0f) * Time.deltaTime);
-
         }
         else //if tracked image tracking state is limited or none 
         {
             //deactivate the image tracked ar object 
             allObjects[trackedImage.referenceImage.name].SetActive(false);
+            rotationButton.gameObject.SetActive(false);
         }
     }
 
@@ -155,7 +156,7 @@ public class ImageTrackerManager : MonoBehaviour
     {
         System.Collections.Hashtable hash =
                    new System.Collections.Hashtable();
-        hash.Add("amount", new Vector3(0.015f, 0.015f, 0f));
+        hash.Add("amount", new Vector3(0.009f, 0.009f, 0f));
         hash.Add("time", 1f);
         iTween.PunchScale(heart, hash);
     }
