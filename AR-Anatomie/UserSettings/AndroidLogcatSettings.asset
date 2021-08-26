@@ -3,7 +3,7 @@
     "m_SelectedPackage": {
         "deviceId": "520073f24a965501",
         "name": "com.pemxrmedizin.ARAnatomie",
-        "processId": 6521,
+        "processId": 16553,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -150,6 +150,54 @@
             "deviceId": "520073f24a965501",
             "name": "com.pemxrmedizin.ARAnatomie",
             "processId": 6521,
+            "exited": false
+        },
+        {
+            "deviceId": "520073f24a965501",
+            "name": "com.pemxrmedizin.ARAnatomie",
+            "processId": 6874,
+            "exited": false
+        },
+        {
+            "deviceId": "520073f24a965501",
+            "name": "com.pemxrmedizin.ARAnatomie",
+            "processId": 8159,
+            "exited": false
+        },
+        {
+            "deviceId": "520073f24a965501",
+            "name": "com.pemxrmedizin.ARAnatomie",
+            "processId": 10462,
+            "exited": false
+        },
+        {
+            "deviceId": "520073f24a965501",
+            "name": "com.pemxrmedizin.ARAnatomie",
+            "processId": 11297,
+            "exited": false
+        },
+        {
+            "deviceId": "520073f24a965501",
+            "name": "com.pemxrmedizin.ARAnatomie",
+            "processId": 11741,
+            "exited": false
+        },
+        {
+            "deviceId": "520073f24a965501",
+            "name": "com.pemxrmedizin.ARAnatomie",
+            "processId": 13074,
+            "exited": false
+        },
+        {
+            "deviceId": "520073f24a965501",
+            "name": "com.pemxrmedizin.ARAnatomie",
+            "processId": 15610,
+            "exited": false
+        },
+        {
+            "deviceId": "520073f24a965501",
+            "name": "com.pemxrmedizin.ARAnatomie",
+            "processId": 16553,
             "exited": false
         }
     ],
