@@ -26,6 +26,8 @@ public class ImageTrackerManager : MonoBehaviour
     private Button lungQuizButton;
     private Button heartFactButton;
     private Button lungFactButton;
+    private GameObject lungPanel;
+    private GameObject heartPanel;
 
     private static bool buttonIsClicked;
 
@@ -73,6 +75,10 @@ public class ImageTrackerManager : MonoBehaviour
         heartFactButton.gameObject.SetActive(false);
         lungFactButton = GameObject.Find("LungFactButton").GetComponent<Button>();
         lungFactButton.gameObject.SetActive(false);
+
+        lungPanel = GameObject.Find("LungPanel").GetComponent<GameObject>();
+        heartPanel = GameObject.Find("HeartPanel").GetComponent<GameObject>();
+
     }
 
     void LoadObjectDictionary()
@@ -160,12 +166,14 @@ public class ImageTrackerManager : MonoBehaviour
                 rotationHeartButton.gameObject.SetActive(false);
                 heartQuizButton.gameObject.SetActive(false);
                 heartFactButton.gameObject.SetActive(false);
+                GameObject.Find("HeartPanel").SetActive(false);
             }
             else
             {
                 rotationLungButton.gameObject.SetActive(false);
                 lungQuizButton.gameObject.SetActive(false);
                 lungFactButton.gameObject.SetActive(false);
+                GameObject.Find("LungPanel").SetActive(false);
             }
 
         }
