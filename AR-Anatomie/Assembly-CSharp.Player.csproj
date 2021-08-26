@@ -65,6 +65,7 @@
     <Compile Include="Assets\Scripts\Question.cs" />
     <Compile Include="Assets\MaterialUI\Scripts\ScreenManager.cs" />
     <Compile Include="Assets\MaterialUI\Scripts\SpriteSwapper.cs" />
+    <Compile Include="Assets\Scripts\RotationButtonHandler.cs" />
     <Compile Include="Assets\MaterialUI\Scripts\CheckboxConfig.cs" />
     <Compile Include="Assets\MaterialUI\Scripts\RippleControl.cs" />
     <Compile Include="Assets\MaterialUI\Scripts\Anim.cs" />
@@ -99,12 +100,12 @@
     <Compile Include="Assets\Scripts\ImageTrackerManager.cs" />
     <Compile Include="Assets\MaterialUI\Scripts\RadioConfig.cs" />
     <Compile Include="Assets\MaterialUI\Examples\Scripts\04 - RadioButton\Example04.cs" />
+    <Compile Include="Assets\Scripts\PanelManager.cs" />
     <Compile Include="Assets\Scripts\Quiz.cs" />
     <Compile Include="Assets\MaterialUI\Scripts\SliderConfig.cs" />
     <Compile Include="Assets\MaterialUI\Scripts\ToastControl.cs" />
     <Compile Include="Assets\MaterialUI\Scripts\MaterialUIVersion.cs" />
     <Compile Include="Assets\MaterialUI\Scripts\ShadowSnap.cs" />
-    <Compile Include="Assets\Scripts\RotationButtonHandler.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Fonts\Rajdhani\OFL.txt" />
