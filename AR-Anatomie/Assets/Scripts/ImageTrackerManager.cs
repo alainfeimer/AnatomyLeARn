@@ -107,8 +107,13 @@ public class ImageTrackerManager : MonoBehaviour
         // Give the initial image a reasonable default scale
         //allObjects[imageName].transform.localScale = new Vector3(0.01f, 0.01f, 0.01f);
         if (imageName == "lung") {
-            allObjects[imageName].transform.localScale = new Vector3(0.025f, 0.025f, 0.025f);
-        } else {
+            allObjects[imageName].transform.localScale = new Vector3(0.02f, 0.02f, 0.02f);
+        } 
+        else if (imageName == "liver")
+        {
+            allObjects[imageName].transform.localScale = new Vector3(0.012f, 0.012f, 0.012f);
+        }
+        else {
             allObjects[imageName].transform.localScale = new Vector3(0.017f, 0.017f, 0.017f);
         }
     }
