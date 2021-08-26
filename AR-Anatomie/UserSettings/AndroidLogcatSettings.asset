@@ -3,7 +3,7 @@
     "m_SelectedPackage": {
         "deviceId": "WCV0219423000483",
         "name": "com.pemxrmedizin.ARAnatomie",
-        "processId": 28975,
+        "processId": 2667,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -246,6 +246,42 @@
             "deviceId": "WCV0219423000483",
             "name": "com.pemxrmedizin.ARAnatomie",
             "processId": 28975,
+            "exited": false
+        },
+        {
+            "deviceId": "WCV0219423000483",
+            "name": "com.pemxrmedizin.ARAnatomie",
+            "processId": 29305,
+            "exited": false
+        },
+        {
+            "deviceId": "WCV0219423000483",
+            "name": "com.pemxrmedizin.ARAnatomie",
+            "processId": 29755,
+            "exited": false
+        },
+        {
+            "deviceId": "WCV0219423000483",
+            "name": "com.pemxrmedizin.ARAnatomie",
+            "processId": 31512,
+            "exited": false
+        },
+        {
+            "deviceId": "WCV0219423000483",
+            "name": "com.pemxrmedizin.ARAnatomie",
+            "processId": 32235,
+            "exited": false
+        },
+        {
+            "deviceId": "WCV0219423000483",
+            "name": "com.pemxrmedizin.ARAnatomie",
+            "processId": 618,
+            "exited": false
+        },
+        {
+            "deviceId": "WCV0219423000483",
+            "name": "com.pemxrmedizin.ARAnatomie",
+            "processId": 2667,
             "exited": false
         },
         {
