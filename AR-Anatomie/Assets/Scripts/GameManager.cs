@@ -79,6 +79,8 @@ public class GameManager : MonoBehaviour
         }
         
         StartCoroutine(TransitiontoNextQuestion()); 
+        
+        Punktestand.instance.AddPoint(); 
     }
         
     public void UserSelectFalse()
@@ -92,6 +94,8 @@ public class GameManager : MonoBehaviour
             Debug.Log("Nicht ganz...");  
         }    
         
-        StartCoroutine(TransitiontoNextQuestion()); 
+        StartCoroutine(TransitiontoNextQuestion());
+        
+        Punktestand.instance.AddPoint();
     }
 }
