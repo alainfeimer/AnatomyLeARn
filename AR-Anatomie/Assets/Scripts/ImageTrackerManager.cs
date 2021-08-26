@@ -105,7 +105,12 @@ public class ImageTrackerManager : MonoBehaviour
         Debug.Log("Tracked the target: " + imageName);
         allObjects[imageName].SetActive(true);
         // Give the initial image a reasonable default scale
-        allObjects[imageName].transform.localScale = new Vector3(0.01f, 0.01f, 0.01f);
+        //allObjects[imageName].transform.localScale = new Vector3(0.01f, 0.01f, 0.01f);
+        if (imageName == "lung") {
+            allObjects[imageName].transform.localScale = new Vector3(0.025f, 0.025f, 0.025f);
+        } else {
+            allObjects[imageName].transform.localScale = new Vector3(0.017f, 0.017f, 0.017f);
+        }
     }
 
     private void UpdateTrackedObject(ARTrackedImage trackedImage)
