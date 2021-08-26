@@ -63,13 +63,13 @@
 38            android:name="com.unity3d.player.UnityPlayerActivity"
 38-->D:\Dokumente\02_LMU\Master\2021_SS\XR\pem-xr-medizin\apk\unityLibrary\src\main\AndroidManifest.xml:5:15-68
 39            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
-39-->D:\Dokumente\02_LMU\Master\2021_SS\XR\pem-xr-medizin\apk\unityLibrary\src\main\AndroidManifest.xml:5:182-363
+39-->D:\Dokumente\02_LMU\Master\2021_SS\XR\pem-xr-medizin\apk\unityLibrary\src\main\AndroidManifest.xml:5:180-361
 40            android:hardwareAccelerated="false"
-40-->D:\Dokumente\02_LMU\Master\2021_SS\XR\pem-xr-medizin\apk\unityLibrary\src\main\AndroidManifest.xml:5:364-399
+40-->D:\Dokumente\02_LMU\Master\2021_SS\XR\pem-xr-medizin\apk\unityLibrary\src\main\AndroidManifest.xml:5:362-397
 41            android:launchMode="singleTask"
-41-->D:\Dokumente\02_LMU\Master\2021_SS\XR\pem-xr-medizin\apk\unityLibrary\src\main\AndroidManifest.xml:5:150-181
-42            android:screenOrientation="fullSensor"
-42-->D:\Dokumente\02_LMU\Master\2021_SS\XR\pem-xr-medizin\apk\unityLibrary\src\main\AndroidManifest.xml:5:111-149
+41-->D:\Dokumente\02_LMU\Master\2021_SS\XR\pem-xr-medizin\apk\unityLibrary\src\main\AndroidManifest.xml:5:148-179
+42            android:screenOrientation="portrait"
+42-->D:\Dokumente\02_LMU\Master\2021_SS\XR\pem-xr-medizin\apk\unityLibrary\src\main\AndroidManifest.xml:5:111-147
 43            android:theme="@style/UnityThemeSelector" >
 43-->D:\Dokumente\02_LMU\Master\2021_SS\XR\pem-xr-medizin\apk\unityLibrary\src\main\AndroidManifest.xml:5:69-110
 44            <intent-filter>
@@ -119,7 +119,7 @@
 67-->D:\Dokumente\02_LMU\Master\2021_SS\XR\pem-xr-medizin\apk\unityLibrary\src\main\AndroidManifest.xml:16:5-101
 68            android:name="unity.build-id"
 68-->D:\Dokumente\02_LMU\Master\2021_SS\XR\pem-xr-medizin\apk\unityLibrary\src\main\AndroidManifest.xml:16:16-45
-69            android:value="509ad01a-deea-4b97-9915-770a37c0dec7" />
+69            android:value="c36f3a30-3e46-472f-8cdb-ba3ccae550bd" />
 69-->D:\Dokumente\02_LMU\Master\2021_SS\XR\pem-xr-medizin\apk\unityLibrary\src\main\AndroidManifest.xml:16:46-98
 70        <meta-data
 70-->D:\Dokumente\02_LMU\Master\2021_SS\XR\pem-xr-medizin\apk\unityLibrary\src\main\AndroidManifest.xml:17:5-88

@@ -18,7 +18,7 @@ android {
     defaultConfig {
         minSdkVersion 26
         targetSdkVersion 29
-        applicationId 'com.DefaultCompany.ARAnatomie'
+        applicationId 'com.pemxrmedizin.ARAnatomie'
         ndk {
             abiFilters 'armeabi-v7a'
         }

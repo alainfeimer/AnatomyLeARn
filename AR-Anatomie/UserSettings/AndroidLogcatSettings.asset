@@ -2,8 +2,13 @@
     "m_SelectedDeviceId": "WCV0219423000483",
     "m_SelectedPackage": {
         "deviceId": "WCV0219423000483",
+<<<<<<< Updated upstream
         "name": "com.DefaultCompany.ARAnatomie",
         "processId": 20777,
+=======
+        "name": "com.pemxrmedizin.ARAnatomie",
+        "processId": 18083,
+>>>>>>> Stashed changes
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -73,6 +78,237 @@
             "name": "com.DefaultCompany.ARAnatomie",
             "processId": 20777,
             "exited": false
+<<<<<<< Updated upstream
+=======
+        },
+        {
+            "deviceId": "WCV0219423000483",
+            "name": "com.pemxrmedizin.ARAnatomie",
+            "processId": 24697,
+            "exited": false
+        },
+        {
+            "deviceId": "WCV0219423000483",
+            "name": "com.pemxrmedizin.ARAnatomie",
+            "processId": 29568,
+            "exited": false
+        },
+        {
+            "deviceId": "WCV0219423000483",
+            "name": "com.pemxrmedizin.ARAnatomie",
+            "processId": 30255,
+            "exited": false
+        },
+        {
+            "deviceId": "WCV0219423000483",
+            "name": "com.pemxrmedizin.ARAnatomie",
+            "processId": 8111,
+            "exited": false
+        },
+        {
+            "deviceId": "WCV0219423000483",
+            "name": "com.pemxrmedizin.ARAnatomie",
+            "processId": 8959,
+            "exited": false
+        },
+        {
+            "deviceId": "WCV0219423000483",
+            "name": "com.pemxrmedizin.ARAnatomie",
+            "processId": 9881,
+            "exited": false
+        },
+        {
+            "deviceId": "WCV0219423000483",
+            "name": "com.pemxrmedizin.ARAnatomie",
+            "processId": 10811,
+            "exited": false
+        },
+        {
+            "deviceId": "WCV0219423000483",
+            "name": "com.pemxrmedizin.ARAnatomie",
+            "processId": 11486,
+            "exited": false
+        },
+        {
+            "deviceId": "WCV0219423000483",
+            "name": "com.pemxrmedizin.ARAnatomie",
+            "processId": 12116,
+            "exited": false
+        },
+        {
+            "deviceId": "WCV0219423000483",
+            "name": "com.pemxrmedizin.ARAnatomie",
+            "processId": 12970,
+            "exited": false
+        },
+        {
+            "deviceId": "WCV0219423000483",
+            "name": "com.pemxrmedizin.ARAnatomie",
+            "processId": 13532,
+            "exited": false
+        },
+        {
+            "deviceId": "WCV0219423000483",
+            "name": "com.pemxrmedizin.ARAnatomie",
+            "processId": 14103,
+            "exited": false
+        },
+        {
+            "deviceId": "WCV0219423000483",
+            "name": "com.pemxrmedizin.ARAnatomie",
+            "processId": 14576,
+            "exited": false
+        },
+        {
+            "deviceId": "WCV0219423000483",
+            "name": "com.pemxrmedizin.ARAnatomie",
+            "processId": 15046,
+            "exited": false
+        },
+        {
+            "deviceId": "WCV0219423000483",
+            "name": "com.pemxrmedizin.ARAnatomie",
+            "processId": 16021,
+            "exited": false
+        },
+        {
+            "deviceId": "WCV0219423000483",
+            "name": "com.pemxrmedizin.ARAnatomie",
+            "processId": 17119,
+            "exited": false
+        },
+        {
+            "deviceId": "WCV0219423000483",
+            "name": "com.pemxrmedizin.ARAnatomie",
+            "processId": 18083,
+            "exited": false
+        },
+        {
+            "deviceId": "520073f24a965501",
+            "name": "com.pemxrmedizin.ARAnatomie",
+            "processId": 26229,
+            "exited": true
+        },
+        {
+            "deviceId": "520073f24a965501",
+            "name": "com.pemxrmedizin.ARAnatomie",
+            "processId": 26714,
+            "exited": true
+        },
+        {
+            "deviceId": "520073f24a965501",
+            "name": "com.pemxrmedizin.ARAnatomie",
+            "processId": 28833,
+            "exited": true
+        },
+        {
+            "deviceId": "520073f24a965501",
+            "name": "com.pemxrmedizin.ARAnatomie",
+            "processId": 29810,
+            "exited": false
+        },
+        {
+            "deviceId": "520073f24a965501",
+            "name": "com.pemxrmedizin.ARAnatomie",
+            "processId": 32137,
+            "exited": false
+        },
+        {
+            "deviceId": "520073f24a965501",
+            "name": "com.pemxrmedizin.ARAnatomie",
+            "processId": 32693,
+            "exited": false
+        },
+        {
+            "deviceId": "520073f24a965501",
+            "name": "com.pemxrmedizin.ARAnatomie",
+            "processId": 563,
+            "exited": false
+        },
+        {
+            "deviceId": "520073f24a965501",
+            "name": "com.pemxrmedizin.ARAnatomie",
+            "processId": 984,
+            "exited": false
+        },
+        {
+            "deviceId": "520073f24a965501",
+            "name": "com.pemxrmedizin.ARAnatomie",
+            "processId": 1217,
+            "exited": false
+        },
+        {
+            "deviceId": "520073f24a965501",
+            "name": "com.pemxrmedizin.ARAnatomie",
+            "processId": 2380,
+            "exited": false
+        },
+        {
+            "deviceId": "520073f24a965501",
+            "name": "com.pemxrmedizin.ARAnatomie",
+            "processId": 4244,
+            "exited": false
+        },
+        {
+            "deviceId": "520073f24a965501",
+            "name": "com.pemxrmedizin.ARAnatomie",
+            "processId": 5645,
+            "exited": false
+        },
+        {
+            "deviceId": "520073f24a965501",
+            "name": "com.pemxrmedizin.ARAnatomie",
+            "processId": 6521,
+            "exited": false
+        },
+        {
+            "deviceId": "520073f24a965501",
+            "name": "com.pemxrmedizin.ARAnatomie",
+            "processId": 6874,
+            "exited": false
+        },
+        {
+            "deviceId": "520073f24a965501",
+            "name": "com.pemxrmedizin.ARAnatomie",
+            "processId": 8159,
+            "exited": false
+        },
+        {
+            "deviceId": "520073f24a965501",
+            "name": "com.pemxrmedizin.ARAnatomie",
+            "processId": 10462,
+            "exited": false
+        },
+        {
+            "deviceId": "520073f24a965501",
+            "name": "com.pemxrmedizin.ARAnatomie",
+            "processId": 11297,
+            "exited": false
+        },
+        {
+            "deviceId": "520073f24a965501",
+            "name": "com.pemxrmedizin.ARAnatomie",
+            "processId": 11741,
+            "exited": false
+        },
+        {
+            "deviceId": "520073f24a965501",
+            "name": "com.pemxrmedizin.ARAnatomie",
+            "processId": 13074,
+            "exited": false
+        },
+        {
+            "deviceId": "520073f24a965501",
+            "name": "com.pemxrmedizin.ARAnatomie",
+            "processId": 15610,
+            "exited": false
+        },
+        {
+            "deviceId": "520073f24a965501",
+            "name": "com.pemxrmedizin.ARAnatomie",
+            "processId": 16553,
+            "exited": false
+>>>>>>> Stashed changes
         }
     ],
     "m_Tags": {

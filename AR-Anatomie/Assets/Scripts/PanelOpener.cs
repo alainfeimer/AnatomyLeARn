@@ -14,14 +14,14 @@ public class PanelOpener : MonoBehaviour
         {
             Panel.SetActive(true);
             panelActive = true;
-            GameObject.Find("InfoButton").GetComponentInChildren<Text>().text = "Fakt ausblenden";
+            //GameObject.Find("InfoButton").GetComponentInChildren<Text>().text = "Fakt ausblenden";
         } 
         
         else if (panelActive == true)
         {
             Panel.SetActive(false);
             panelActive = false;
-            GameObject.Find("InfoButton").GetComponentInChildren<Text>().text = "Fakt einblenden";
+            //GameObject.Find("InfoButton").GetComponentInChildren<Text>().text = "Fakt einblenden";
         }
     }
 
