@@ -20,7 +20,13 @@ public class ImageTrackerManager : MonoBehaviour
     private ARTrackedImageManager arTrackedImageManager;
     private IReferenceImageLibrary refLibrary;
 
-    private Button rotationButton;
+    private Button rotationHeartButton;
+    private Button rotationLungButton;
+    private Button heartQuizButton;
+    private Button lungQuizButton;
+    private Button heartFactButton;
+    private Button lungFactButton;
+
     private static bool buttonIsClicked;
 
 
@@ -52,7 +58,21 @@ public class ImageTrackerManager : MonoBehaviour
         refLibrary = arTrackedImageManager.referenceLibrary;
         refImageCount = refLibrary.count;
         LoadObjectDictionary();
-        rotationButton = GameObject.Find("RotationButton").GetComponent<Button>();
+
+        rotationHeartButton = GameObject.Find("RotationHeartButton").GetComponent<Button>();
+        rotationHeartButton.gameObject.SetActive(false);
+        rotationLungButton = GameObject.Find("RotationLungButton").GetComponent<Button>();
+        rotationLungButton.gameObject.SetActive(false);
+
+        heartQuizButton = GameObject.Find("HeartQuizButton ChangeScene").GetComponent<Button>();
+        heartQuizButton.gameObject.SetActive(false);
+        lungQuizButton = GameObject.Find("LungQuizButton ChangeScene").GetComponent<Button>();
+        lungQuizButton.gameObject.SetActive(false);
+
+        heartFactButton = GameObject.Find("HeartFactButton").GetComponent<Button>();
+        heartFactButton.gameObject.SetActive(false);
+        lungFactButton = GameObject.Find("LungFactButton").GetComponent<Button>();
+        lungFactButton.gameObject.SetActive(false);
     }
 
     void LoadObjectDictionary()
@@ -87,19 +107,26 @@ public class ImageTrackerManager : MonoBehaviour
         //if tracked image tracking state is comparable to tracking
         if (trackedImage.trackingState == TrackingState.Tracking)
         {
+
             if (trackedImage.referenceImage.name == "heart")
             {
                 //set the image tracked ar object to active 
                 allObjects[trackedImage.referenceImage.name].SetActive(true);
                 allObjects[trackedImage.referenceImage.name].transform.position = trackedImage.transform.position;
 
+                rotationHeartButton.gameObject.SetActive(true);
+                heartQuizButton.gameObject.SetActive(true);
+                heartFactButton.gameObject.SetActive(true);
+
                 doPulse(allObjects[trackedImage.referenceImage.name]);
+               
 
                 //This code can be used to rotate the object
                 //allObjects[trackedImage.referenceImage.name].transform.Rotate(new Vector3(0f, 100f, 0f) * Time.deltaTime);
                 if (buttonIsClicked)
                 {
                     allObjects[trackedImage.referenceImage.name].transform.Rotate(new Vector3(0f, 100f, 0f) * Time.deltaTime);
+                    
                 }
                 
 
@@ -110,20 +137,37 @@ public class ImageTrackerManager : MonoBehaviour
                 allObjects[trackedImage.referenceImage.name].SetActive(true);
                 allObjects[trackedImage.referenceImage.name].transform.position = trackedImage.transform.position;
 
+                rotationLungButton.gameObject.SetActive(true);
+                lungQuizButton.gameObject.SetActive(true);
+                lungFactButton.gameObject.SetActive(true);
+
+
                 if (buttonIsClicked)
                 {
                     allObjects[trackedImage.referenceImage.name].transform.Rotate(new Vector3(0f, 100f, 0f) * Time.deltaTime);
                 }
             }
 
-            //This code can be used to rotate the object
-            //allObjects[trackedImage.referenceImage.name].transform.Rotate(new Vector3(0f, 100f, 0f) * Time.deltaTime);
 
         }
         else //if tracked image tracking state is limited or none 
         {
             //deactivate the image tracked ar object 
             allObjects[trackedImage.referenceImage.name].SetActive(false);
+
+            if (trackedImage.referenceImage.name == "heart")
+            {
+                rotationHeartButton.gameObject.SetActive(false);
+                heartQuizButton.gameObject.SetActive(false);
+                heartFactButton.gameObject.SetActive(false);
+            }
+            else
+            {
+                rotationLungButton.gameObject.SetActive(false);
+                lungQuizButton.gameObject.SetActive(false);
+                lungFactButton.gameObject.SetActive(false);
+            }
+
         }
     }
 
