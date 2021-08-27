@@ -1,4 +1,0 @@
-#Thu Aug 26 15:30:57 CEST 2021
-base.0=D\:\\Dokumente\\02_LMU\\Master\\2021_SS\\XR\\pem-xr-medizin\\apk\\launcher\\build\\intermediates\\dex\\release\\out\\classes.dex
-path.0=classes.dex
-renamed.0=classes.dex

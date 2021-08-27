@@ -9,7 +9,7 @@ public class Punktestand : MonoBehaviour
 
     public Text punkteText;
     
-    public int punkte = 0;  
+    public static int punkte = 0;  
     
     private void Awake()
     {

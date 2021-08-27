@@ -54,6 +54,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Assets\MaterialUI\Scripts\SelectionBoxSubscriber.cs" />
+    <Compile Include="Assets\Scripts\ShowFactsLung.cs" />
     <Compile Include="Assets\MaterialUI\Scripts\SnapButtonToText.cs" />
     <Compile Include="Assets\MaterialUI\Scripts\MaterialUIScaler.cs" />
     <Compile Include="Assets\Scripts\HeartPanelManager.cs" />
@@ -72,6 +73,7 @@
     <Compile Include="Assets\MaterialUI\Scripts\MenuArrowAnim.cs" />
     <Compile Include="Assets\MaterialUI\Examples\Scripts\05 - Sliders\Example05.cs" />
     <Compile Include="Assets\MaterialUI\Scripts\ToastAnim.cs" />
+    <Compile Include="Assets\Scripts\ShowFactsHeart.cs" />
     <Compile Include="Assets\MaterialUI\Scripts\DialogBoxConfig.cs" />
     <Compile Include="Assets\MaterialUI\Scripts\NavDrawerConfig.cs" />
     <Compile Include="Assets\MaterialUI\Scripts\ShadowConfig.cs" />
@@ -82,14 +84,13 @@
     <Compile Include="Assets\MaterialUI\Scripts\HSBColor.cs" />
     <Compile Include="Assets\MaterialUI\Scripts\SelectionListItemConfig.cs" />
     <Compile Include="Assets\MaterialUI\Scripts\InputFieldConfig.cs" />
-    <Compile Include="Assets\Scripts\Punktestand.cs" />
     <Compile Include="Assets\MaterialUI\Scripts\FPSCounter.cs" />
     <Compile Include="Assets\MaterialUI\Scripts\RectTransformSnap.cs" />
     <Compile Include="Assets\MaterialUI\Scripts\ShadowAnim.cs" />
     <Compile Include="Assets\MaterialUI\Scripts\ToggleTextChanger.cs" />
     <Compile Include="Assets\MaterialUI\Scripts\ColorCopier.cs" />
     <Compile Include="Assets\MaterialUI\Scripts\EZAnim.cs" />
-    <Compile Include="Assets\Punktestand.cs" />
+    <Compile Include="Assets\Scripts\Punktestand.cs" />
     <Compile Include="Assets\MaterialUI\Scripts\SelectionBoxConfig.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\MaterialUI\Scripts\CheckBoxToggler.cs" />

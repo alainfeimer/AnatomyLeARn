@@ -72,15 +72,15 @@ public class GameManager : MonoBehaviour
         animator.SetTrigger("True");
         if(currentQuestion.isTrue)
         {
-            Debug.Log("Stimmt genau!");  
+            Debug.Log("Stimmt genau!");
+            Punktestand.instance.AddPoint();
         } else
         {
             Debug.Log("Nicht ganz...");  
         }
         
         StartCoroutine(TransitiontoNextQuestion()); 
-        
-        Punktestand.instance.AddPoint(); 
+         
     }
         
     public void UserSelectFalse()
@@ -88,6 +88,7 @@ public class GameManager : MonoBehaviour
         animator.SetTrigger("False"); 
         if(!currentQuestion.isTrue)
         {
+            Punktestand.instance.AddPoint();
             Debug.Log("Stimmt genau!");  
         } else
         {
@@ -96,6 +97,5 @@ public class GameManager : MonoBehaviour
         
         StartCoroutine(TransitiontoNextQuestion());
         
-        Punktestand.instance.AddPoint();
     }
 }
