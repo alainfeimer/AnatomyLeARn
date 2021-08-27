@@ -1,6 +1,5 @@
 # AnatomyLeARn
-Mit AnatomyLeARn kann man sich mit Hilfe von Image Tracking 3D Modelle des Herzens und der Lunge in Augemented Reality anzeigen lassen und sich ihre Struktur ansehen. 
-Für die Organe können Fakten angezeigt werden mit denen man mehr über deren Funktionalität lernt. Es gibt auch Quizze zu den Organen, die auch als Lernhilfe dienen und das gelernte Wissen abfragen. 
+Mit AnatomyLeARn kann menschliche Anatomie greifbar gemacht und Faktenwissen über unsere inneren Organe verinnerlicht und abgefragt werden. Außerdem bietet es die Möglichkeit, ohne echte Modelle ein besseres Verständnis der Anatomie zu erlangen. Die App verfügt über einen Augmented Reality-Modus, in dem Marker der Organe eingescannt und so das 3D-Modell von allen Seiten betrachtet werden kann. Aktuell werden drei Organe unterstützt: das Herz, die Lunge und die Leber. Nach Einscannen des Markers stehen dem User weitere Funktionen zur Verfügung. Über die eingeblendeten Buttons kann das jeweilige Organ gedreht, Fakten angezeigt oder das Quiz gestartet werden. Mit Auswahl der Wahr/Falsch-Buttons im Quiz erhält der User ein Feedback zur korrekten Lösung und kann durch richtige Antworten seinen Punktestand erhöhen. 
 
 ## Start der App und Anwendung
 Das UnityProjekt im Unity Editor öffnen und dann unter Build Settings das Handy auswählen und dann auf Build and Run klicken, um die App zu installieren.
