@@ -13,7 +13,7 @@ Der Prototyp startet in einem Welcomescreen. Mit Klick auf Login öffnet sich di
 - Für die pulsierende Animation des Herzens wurde iTween aus dem Unity Asset Store verwendet
 
 ## Workflow durch die App
-![Screenshot](/AR-Anatomie/Assets/Textures/Screenshots_combined.png?raw=true "Screenshots")
+![Screenshot](/Screenshots/Screenshots_combined.png?raw=true "Screenshots")
 
 ## Autoren
 - Marion Botsivali
